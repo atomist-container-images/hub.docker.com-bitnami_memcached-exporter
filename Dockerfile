@@ -1,12 +1,21 @@
-# Tags: latest, 0.9.0-debian-10-r372, 0.9.0, 0-debian-10, 0
+# Tags: latest, 0.9.0-debian-10-r375, 0.9.0, 0-debian-10, 0
 FROM bitnami/memcached-exporter:latest
-FROM bitnami/memcached-exporter:0.9.0-debian-10-r372
+FROM bitnami/memcached-exporter:0.9.0-debian-10-r375
 FROM bitnami/memcached-exporter:0.9.0
 FROM bitnami/memcached-exporter:0-debian-10
 FROM bitnami/memcached-exporter:0
 
 # Tags: _
 FROM bitnami/memcached-exporter:_
+
+# Tags: 0.9.0-debian-10-r374
+FROM bitnami/memcached-exporter:0.9.0-debian-10-r374
+
+# Tags: 0.9.0-debian-10-r373
+FROM bitnami/memcached-exporter:0.9.0-debian-10-r373
+
+# Tags: 0.9.0-debian-10-r372
+FROM bitnami/memcached-exporter:0.9.0-debian-10-r372
 
 # Tags: 0.9.0-debian-10-r371
 FROM bitnami/memcached-exporter:0.9.0-debian-10-r371
@@ -82,15 +91,3 @@ FROM bitnami/memcached-exporter:0.9.0-debian-10-r348
 
 # Tags: 0.9.0-debian-10-r347
 FROM bitnami/memcached-exporter:0.9.0-debian-10-r347
-
-# Tags: 0.9.0-debian-10-r346
-FROM bitnami/memcached-exporter:0.9.0-debian-10-r346
-
-# Tags: 0.9.0-debian-10-r345
-FROM bitnami/memcached-exporter:0.9.0-debian-10-r345
-
-# Tags: 0.9.0-debian-10-r344
-FROM bitnami/memcached-exporter:0.9.0-debian-10-r344
-
-# Tags: 0.9.0-debian-10-r343
-FROM bitnami/memcached-exporter:0.9.0-debian-10-r343
